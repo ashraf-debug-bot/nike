@@ -1,0 +1,458 @@
+
+
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background-color: black;
+
+}
+.item{
+    list-style-type: none;
+}
+div{
+    
+    color:white;
+    padding:20px 50px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding:10px 20px;
+    border-radius:10px;
+   
+}
+.searchInput{
+    border:none;
+    background-color: transparent;
+    
+    
+}
+.searchInput::placeholder{
+color:lightgrey;
+}
+.limitted{
+    font-size: 20px;
+    border-bottom:2px solid green;
+    cursor:pointer;
+}
+.nav-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.menuItem{
+    padding:20px;
+    color:lightgrey;
+}
+.slider{
+    background: url("https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/gtdsomrfke5tckpj1jtr/nike-logos-lead?fimg-ssr-default");
+    height:50%;
+
+    width:100%;
+}
+.sliderTitle{
+    color:black;
+}
+nav{
+    background-color: black;
+}
+.sliderWrapper{
+   
+    width:500vw;
+    display:flex;
+    transition: all is ease-in;
+}
+.sliderItem{
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-itm{
+    padding:30px;
+    border: 30px;
+    background-color: black;
+    color:white;
+    margin-right:100px;
+    border-radius:30px;
+    margin-bottom:70px;
+    font-size: 25px;;
+    
+ 
+}
+.sliderTitle{
+    color:white;
+}
+.buybutton{
+    font-size: 20px;
+    margin-top:10px;
+}
+.menuItem{
+    cursor: pointer;
+}
+.menuItem:hover{
+    color:aliceblue
+}
+
+.feature{
+   
+
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.features{
+ 
+    text-align: center;
+    justify-content: center;
+    display: flex;
+flex-direction: column;
+   
+}
+.feature-text{
+    color:black;
+}
+.product{
+ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 79%);
+width:100%;
+background-color:black;
+    background-image: url("https://i.pinimg.com/736x/20/58/c2/2058c222201e9b3e90a240b2a88428b0.jpg");
+ justify-content: center;
+ text-align: center;
+ position: relative;
+
+}
+.text-product{
+    color:black;
+    font-size: 50px;;
+    text-align: center;
+    line-height: -5;
+    
+}
+.para{
+    font-size: 20px;;
+    
+    color:black;
+ 
+    text-align: center ;
+    justify-content: center;
+    bottom: 50px;;
+ 
+ 
+}
+.sale-button{
+    text-align: center;
+    width:100%;
+    border-radius: 20px;;
+
+}
+.but{
+    padding:10px;
+    border-radius: 10px;
+}
+.but:hover{
+    background-color: black;
+    color:white;
+}
+.color{
+    width:30px;
+    height:20px;
+   background-color:black;
+   border-radius: 5px;
+
+   margin-right: 5px;;
+}
+.color:last-child{
+    background-color: darkblue;
+}
+
+   
+.colors{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.sizes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.size{
+    color: black;
+    padding:5px 20px;
+   border:1px solid black;
+   margin-right: 10px;
+   cursor: pointer;
+}
+.size:hover{
+background-color: black;
+color:white;
+}
+.name{
+    text-align: center;
+    color: gray;
+}
+
+.galleryTitle{
+    color:black;
+    text-align: center;
+    
+}
+.img-gallery{
+    display: flex;
+    padding:50px;
+}
+.galleryItem{
+     flex:1;
+     padding:50px;
+}
+.gal-img{
+    width:103%;
+}
+
+.newseason{
+    display:flex;
+    width:100%;
+    
+}
+.nsimg{
+    padding:20px;
+    width:100%;
+}
+.nsitem{
+    flex:1;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nstitle{
+    font-size:40px;
+    line-height: 1.5;
+}
+.nsbutton{
+    padding:15px;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.feature-heading{
+    color: black;
+    padding: 10px;;
+}
+.footerMenu{
+    color:black;
+}
+footer{
+    display: flex;
+}
+.footer-left{
+    flex:2;
+    display: flex;
+    justify-content: space-between;
+    padding:50px;
+    line-height: 2;
+}
+.footer-right{
+    flex: 1;
+    color:black;
+    padding:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between ;
+}
+.f-input{
+    padding:5px;
+}
+.fbutton{
+    padding:5px;
+    background-color: black;
+    color:white;
+}
+.slider{
+    overflow: hidden;
+}
+.sliderWrapper{
+    clip-path: none;
+    overflow: hidden;
+}
+.flistitem{
+    font-size: 16px;
+    color:gray;
+    cursor:pointer;
+}
+.fmenutitle{
+    font-size: 30px;
+    color: black;
+}
+.flistitem{
+    font-size: 20px;
+}
+.lab{
+color:black;
+}
+.fmenulist{
+padding:0;
+list-style:none;
+}
+.ficon{
+    display: flex;
+    width:50px;
+    padding:10px;
+}
+.ficons{
+    display: flex;
+    padding:20px;
+}
+.fmenuTitle{
+    color: black;
+}
+.footerrightmenu{
+    color:black;
+}
+.finput{
+    padding: 5px;
+    
+}
+.img-so{
+    width:50px;
+    padding:10px;
+}
+ @media only screen and (max-width: 480px) {
+    nav{
+        padding:20px;
+    }
+    .menuItem{
+        font-weight: 800;
+        font-size: 20px;
+        
+    }
+    .navlist{
+        margin-bottom: -20px;
+
+    }
+    .limitted{
+        display: none;
+    }
+    .nav-button{
+       flex-wrap: wrap ;
+    }
+    
+    .icon-search{
+        margin-left:5px;
+        padding:5px;
+  
+  
+    }
+    .slider{
+      
+      width:100%;
+      height:100%;
+   
+    }
+    .sliderimg{
+        width:130%;
+       margin-right:40px;
+        height: 90%;
+        
+    }
+
+    .searchInput{
+        margin-left:20px;
+    }
+    .title-itm{
+       display: none;
+        width:100px;
+    }
+   
+    
+    .buybutton{
+        top:unset;
+        bottom:0;
+        left:0;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+      
+        width: 100%;
+        align-items: center;
+       
+        
+    }
+    .feature-heading{
+        color:gray;
+      
+        padding:10px;
+    }
+    .img-product{
+        width: 100%;
+        height:100%;
+    }
+    .product{
+        width:100%;
+    }
+    .tit{
+        font-size: 50px;
+    }
+    .sale-button{
+        width: 100%;
+    }
+    .img-gallery{
+        display: none;
+    }
+    .newseason{
+        flex-direction: column;
+    
+        background-color: black;
+        
+       
+    }
+    .nsimg{
+        width:160%;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-left{
+    margin:20px;
+    font-size: 50px;
+      
+    }
+    .footerMenu{
+        padding:30px;
+        width:50%;
+        font-size: 50%;
+    }
+    .name{
+        text-align: center;
+        color:grey;
+    }
+
+        .product{
+            clip-path: none;
+        }
+        .slider{
+            overflow: hidden;
+        }
+        .sliderWrapper{
+            clip-path: none;
+            overflow: hidden;
+        }
+    
+ }
+
+ 
